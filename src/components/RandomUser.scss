@@ -1,0 +1,15 @@
+.random-user {
+  position: absolute;
+  right: -240px;
+  width: 14rem;
+  margin-top: 5px;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 2s ease, visibility 2s ease;
+
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+}
